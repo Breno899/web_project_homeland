@@ -1,3 +1,148 @@
 .page {
-    background-color: blackg;
+    background-color: black;
+    width: 1280px;
+    height: 1883px;
+    margin-top: 0;
+}
+
+.lead__logo {
+    display: flex;
+    width: 254px ;
+    height: 70px ;
+    padding-top: 34px;
+    margin-left: 514px;
+    
+}
+
+.lead__header {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 64px;
+}
+
+.lead__title {
+    color: #ffffff;
+    width: 720px ;
+    height: 200px;
+    font-family: Inter;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 94px;
+    line-height: 100px;
+    text-align: center;
+    letter-spacing: 0%;
+}
+
+.lead__subtitle {
+    color: #ffffff;
+    width: 700px;
+    height: 72px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0%;
+}
+
+.lead__logo {
+margin-top: 50px;
+}
+
+.lead__image {
+    margin-top: 80px;
+}
+
+.lead__card {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 148px;
+}
+
+.lead__card-title {
+    color: #ffffff;
+    font-family: Inter;
+    width: 830px;
+    height: 116px;
+    font-weight:900;
+    line-height: 58px;
+    font-size: 54px;
+    letter-spacing: 0%;
+
+}
+
+.lead__card-description {
+    color: #ffffff;
+    font-family: Inter;
+    width:738px ;
+    height: 68px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    display: flex;
+}
+
+.lead__card-name {
+    color: #ffffff;
+    font-family: Inter;
+    width: 732px;
+    height:34px ;
+    font-weight: 400;
+    font-size: 24px;
+    line-height:34px ;
+    letter-spacing:0% ;
+    text-align: right;
+}
+
+.lead__card-paragraph {
+    color: #ffffff;
+    font-family: Inter;
+    width:722px ;
+    height:182px ;
+    font-weight:400 ;
+    font-size:16px ;
+    line-height: 163%;
+    letter-spacing: 0%;
+
+}
+
+.lead__footer-name {
+    color: #ffffff;
+    font-family: Inter;
+    width: 166px;
+    height:16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:16px ;
+    letter-spacing:0% ;
+    text-align: left;
+    display: flex;
+    margin-left: 556px;
+    margin-bottom: 24px;
+
+}
+
+
+@media (max-width: 768px) {
+.lead__logo {
+    display: flex; 
+    height: 66px ;
+    width: 254px;
+    margin-top: 30px;
+    margin-left: 257px;
+
+}
+}
+
+@media (max-width: 320px) {
+.lead__logo {
+    display: flex;
+    height: 52px;
+    width: 188px;
+    margin-top: 22px;
+    margin-left: 66px;
+
+}
 }
