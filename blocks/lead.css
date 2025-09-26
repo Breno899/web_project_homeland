@@ -1,11 +1,3 @@
-.lead__logo {
-    display: flex;
-    max-width: 254px;
-    height: 70px;
-    margin-top: 34px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .lead {
     display: flex;
@@ -42,13 +34,6 @@
 }
 
 @media (max-width: 768px) {
-    .lead__logo {
-        display: flex;
-        max-width: 254px;
-        margin-top: 30px;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
     .lead__title {
         max-width: 530px;
@@ -76,14 +61,7 @@
 }
 
 @media (max-width: 320px) {
-     .lead__logo {
-        display: flex;
-        max-width: 188px;
-        margin-top: 22px;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
+     
 
     .lead__title {
         max-width: 228px;
