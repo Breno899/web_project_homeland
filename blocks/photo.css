@@ -5,8 +5,10 @@ grid-template-columns: repeat(4, 1fr);
 grid-template-rows: repeat(2, 1fr) ;
 max-width: 1184px;
 margin: 0 auto;
+margin-top: 118px;
 }
 
 .photo__grid-image {
 max-width: 284px;
+
 }
