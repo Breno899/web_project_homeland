@@ -1,9 +1,10 @@
 .intro {
     flex-direction: column;
-    padding-left: 148px;
+    max-width: 984px;
+    margin: 0 auto;
 }
 
-.intro-title {
+.intro__title {
     margin-top: 92px;
     margin-bottom: 0;
     max-width: 830px;
@@ -14,7 +15,7 @@
 
 }
 
-.intro-description {
+.intro__description {
     margin-top: 40px;
     max-width: 738px;
     font-weight: 400;
@@ -24,7 +25,7 @@
     display: flex;
 }
 
-.intro-paragraph {
+.intro__paragraph {
     margin-top: 32px;
     max-width: 722px;
     font-weight: 400;
@@ -34,7 +35,7 @@
 
 }
 
-.intro-name {
+.intro__name {
     margin-top: 10px;
     max-width: 732px;
     width: 100%;
@@ -47,80 +48,56 @@
 }
 
 @media (max-width: 768px) {
-    .intro-title {
-        max-width: 707px;
-        font-weight: 900;
+    .intro__title {
         font-size: 45px;
         line-height: 49px;
-        letter-spacing: 0%;
         margin-top: 90px;
     }
 
-    .intro-description {
-        max-width: 702px;
-        font-weight: 400;
+    .intro__description {
         font-size: 24px;
         line-height: 34px;
         text-align: center;
-        letter-spacing: 0%;
         margin-top: 50px;
     }
 
-    .intro-name {
-        max-width: 720px;
-        font-weight: 400;
+    .intro__name {
         font-size: 24px;
         line-height: 34px;
         text-align: center;
-        letter-spacing: 0%;
         margin-top: 26px;
     }
 
-    .intro-paragraph {
-        max-width: 720px;
-        font-weight: 400;
+    .intro__paragraph {
         font-size: 16px;
         line-height: 163%;
-        letter-spacing: 0%;
         margin-top: 32px;
     }
 }
 
 @media (max-width: 320px) {
-    .intro-title {
-        max-width: 288px;
-        font-weight: 900;
+    .intro__title {
         font-size: 32px;
         line-height: 35px;
-        letter-spacing: 0%;
         margin-top: 64px;
     }
 
-    .intro-description {
-        max-width: 288px;
-        font-weight: 400;
+    .intro__description {
         font-size: 24px;
         line-height: 30px;
-        letter-spacing: 0%;
         margin-top: 40px;
     }
 
-    .intro-name {
-        max-width: 288px;
-        font-weight: 400;
+    .intro__name {
         font-size: 24px;
         line-height: 34px;
         text-align: right;
-        letter-spacing: 0%;
         margin-top: 10px;
     }
 
-    .intro-paragraph {
-        max-width: 288px;
-        font-weight: 400;
+    .intro__paragraph {
         font-size: 16px;
         line-height: 163%;
-        letter-spacing: 0%;
         margin-top: 32px;
     }
 }

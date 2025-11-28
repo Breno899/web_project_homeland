@@ -98,17 +98,13 @@
     background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
 }
 
-@media (max-width: 788px) {
+@media (max-width: 1024px) {
     .place {
-    display: grid;
-    max-width: 720px;
-    margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 88px;
     gap: 72px;
 }
 
 .place__card {
-    display: grid;
     grid-template-columns: 340px 1fr;
     grid-template-rows: auto 340px auto auto;
     grid-template-areas:
@@ -173,7 +169,6 @@
 
 
 .place__card-paragraph {
-    max-width: 352px;
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;
@@ -201,18 +196,15 @@
 }
 }
 
-@media (max-width:320px) {
+@media (max-width:544px) {
      .place {
-    display: grid;
-    max-width: 320px;
-    margin: 0 auto;
     margin-top: 62px;
     gap: 50px;
 }
 
 .place__card {
-    display: grid;
-    grid-template-columns: 320px 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 320px auto auto auto;
     grid-template-areas:
         "title"
         "artists"
@@ -225,7 +217,6 @@
 }
 
 .place__card-title {
-    max-width: 288px;
     font-size: 32px;
     font-weight: 900;
     line-height: 35px;
@@ -241,6 +232,7 @@
     grid-area: image;
     height: 320px;
     opacity: 1;
+    margin: 0 auto;
 }
 
 .place__card-image:hover {
@@ -253,7 +245,6 @@
 }
 
 .place__card-heading {
-    max-width: 288px;
     font-weight: 400;
     font-size: 12px;
     line-height: 100%;
@@ -276,7 +267,6 @@
 
 
 .place__card-paragraph {
-    max-width: 288px;
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;

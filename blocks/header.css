@@ -8,21 +8,15 @@
 }
 
 @media (max-width:788px) {
-     .lead__logo {
-        display: flex;
+     .header__logo {
         max-width: 254px;
         margin-top: 30px;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
 
 @media (max-width:320px) {
-     .lead__logo {
-        display: flex;
+     .header__logo {
         max-width: 188px;
         margin-top: 22px;
-        margin-left: auto;
-        margin-right: auto;
      }
 }
